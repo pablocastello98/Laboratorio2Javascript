@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo Agustín Castelló - Laboratorio 2</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/onload.js"></script>
+</head>
+<body>
+    
+    <div class="columnas">
+        <form id="form" class="form">
+            <div class="ingreso">
+                <label for="">Nombre</label>
+                <input type="text" id="nombre">
+            </div>
+            <div class="ingreso">
+                <label for="">Apellido</label>
+                <input type="text" id="apellido">
+            </div>
+            <div class="ingreso">
+                <label for="">Edad</label>
+                <input type="number" id="edad">
+            </div>
+        
+            <button class="boton" id="boton" onclick="agregar()" type="reset">Agregar</button>
+        </form>
+        <div class="tabla">
+            <table id="tabla">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Edad</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        
+
+    </div>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
